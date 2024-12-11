@@ -1,0 +1,2 @@
+# Rust Vector Raw Pointer Modification Bug
+This repository demonstrates a common bug in Rust involving the unsafe use of raw pointers to modify vectors.  The example showcases how modifying a vector's contents via a raw pointer after the vector's internal allocation has changed can result in undefined behavior and potentially memory corruption.  The solution demonstrates a safe alternative using vector indexing.
